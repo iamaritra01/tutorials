@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Pacifico&family=Roboto+Condensed:wght@600&family=Ubuntu:ital,wght@1,300&display=swap');
+
+body{
+    padding: 0;
+    margin:0;
+    font-family: 'Roboto';
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color:lightcoral !important;
+}
+.nav-link{
+    font-size:16px;
+    margin:15px;
+    color:black;
+}
+.nav-link:hover{
+    color: #00e8e8 !important;
+}
+.active.nav-link{
+    color:#00e8e8 !important;
+}
+.menu-right-btn{
+    padding:13px 46px;
+    margin:4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+    color:#fff;
+    background-color: #00e8e8;
+}
+
+.site-content{
+    background-image: url('images/pexels-oziel-gómez-2846814.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title,.site-desc{
+    color:white;
+    font-family: 'ubuntu';
+}
+.site-title{
+    margin-top:30%;
+    margin-bottom:6%;
+    font-size:50px;
+}
+.site-desc{
+    font-size: 14px;
+    padding-left: 15%;
+}
+.site-btn1{
+    margin-left: 20%;
+    background-color:black;
+    color:white;
+}
+.site-btn2{
+    background-color: white;
+}
+.site-btn1,.site-btn2{
+    margin-top:5%;
+    margin-bottom: 40%;
+}
+
+/* Section-1 */
+.section-1 .heading1 {
+    margin-top: 8%;
+}
+.section-1 .heading2{
+    margin-bottom:5%;
+    font-size: 39px;
+}
+
+.section-1 .para-1{
+    width:60%;
+    margin-left:20%;
+    margin-bottom: 5%;
+}
+.section-1 .card-text,.para-1{
+    color:rgba(0,0,0,0.50);
+}
+.section-1{
+    margin-bottom:8%;
+}
+
+/* section-2 */
+.section-2 .container-fluid{
+    background-image: url('images/pexels-miguel-á-padriñán-1111369.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-2 .heading1{
+    margin-top:20%;
+    margin-bottom:4%;
+    font-family: 'Jomhuria';
+    width:80%;
+    color:white;
+}
+.section-2 .para1{
+    width:80%;
+    font-family: 'Jomhuria';
+    color:white;
+    font-size: 30px;
+    margin-bottom: 7%;
+}
+.section-2 .btn{
+    margin-bottom: 15%;
+    width:30%;
+    padding:2% 5%;
+}
+
+
+/* Section-3 */
+
+.section-3{
+
+    margin-top: 6%;
+}
+.section-3 i{
+    color:#00e8e8;
+}
+.section-3 p{
+    color:rgba(0,0,0,0.50);
+}
+
+/* section-4 */
+.section-4{
+    margin-top:8%;
+}
+
+.section-4 .row .col-md-7,.col-md-5{
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+
+.section-4 a{
+    color:lightseagreen;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.section-4 .para1{
+    color:white;
+    font-family: 'Jomhuria';
+    font-size: 25px;
+    letter-spacing:0.1em;
+    margin-top: 7%;
+}
+.card{
+    width:20rem;
+}
+
+/* FOOTER */
+.social i{
+   color: crimson;
+   font-size: 20px;
+}
+
+
+
+@media screen and (max-width:768px) {
+      .section1 .card{
+          width:14rem;
+      }
+
+      .section-4 .col-md-7 img{
+          width:360px;
+      }
+}
+
+@media screen and (max-width:320px) {
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left:15%;
+    }
+    .site-content .site-btn2{
+        display:none;
+    }
+
+    .section-1 .heading1,.heading2{
+        font-size:25px;
+    }
+
+    .section-1 .col-md-4{
+        padding: 5%;
+        margin-left: 8%;
+    }
+    .section-1 .card{
+        width:15rem;
+    }
+}
